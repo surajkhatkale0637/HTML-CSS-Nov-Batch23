@@ -1,0 +1,73 @@
+<html>
+<head>
+    <title>Tables</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 2px solid rgb(229, 15, 15);
+        }
+    </style>
+</head>
+<body>
+    <h1>Table Data</h1>
+    <table>
+        <thead>
+                <tr>
+                    <th>NO</th>
+                    <th>FULL NAME</th>
+                    <th>POSITION</th>
+                    <th>SALARY</th>
+                    <th>Type</th>
+                </tr>
+            </thead>
+    
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Adfar Rasheed</td>
+                    <td>Instructor</td>
+                    <td>10000</td>
+                    <td rowspan="5">company Founder</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Ruhi</td>
+                    <td>Instructor 2</td>
+                    <td>100000</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Suraj</td>
+                    <td>Instructor 3</td>
+                    <td>150000</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Tinku</td>
+                    <td>Instructor 4</td>
+                    <td>100600</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="4">Total Expenses</td>
+                    <td>100000000</td>
+                </tr>
+            </tfoot>
+            
+    </table>
+<br><br><br><br>
+    <table>
+        <tr>
+            <th colspan="4">Main header</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2">header 1</td>
+        </tr>
+    </table>
+</body>
+</html>

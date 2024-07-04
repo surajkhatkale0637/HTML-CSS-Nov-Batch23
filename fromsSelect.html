@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormsSelect</title>
+</head>
+<body>
+    <form action="">
+        <input type="text" value="Welcome" readonly>
+        <select name="Skills" id="">
+            <optgroup label="Skills">
+            <option value="html">A</option>
+            <option value="css">B</option>
+            <option value="js">C</option>
+            <option value="react">D</option>
+            </optgroup>
+
+            <optgroup label="Degree">
+                <option value="html">E</option>
+                <option value="css">F</option>
+                <option value="js">G</option>
+                <option value="D">H</option>
+                </optgroup>
+        </select> <br><br>
+
+        <input list="sk">
+        <datalist id="sk">
+            <option value="html">
+                <option value="css">
+                <option value="js">
+                <option value="react">
+        </datalist>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
